@@ -1,5 +1,5 @@
-MobySoft Tech Test
-Developer, Andy McCall, andy.mccall@gmail.com
+# MobySoft Tech Test
+#### Developer, Andy McCall, andy.mccall@gmail.com
 
 The repository hosts a solution for the MobySoft Tech Test as of the 25th July 2019.
 
@@ -7,10 +7,10 @@ The solution has been built using Java 8 and the Spring Framework. With more tim
 
 The project has been built using SOLID principles using well known design patterns.
 
-##Project Status
+## Project Status
 
 
-##Build and Environment
+## Build and Environment
 
 The application has been created using the IntelliJ IDE.  To run via the IDE, checkout the project from GitHub and or unzip the provided archive.
 
@@ -18,7 +18,7 @@ To test and package the project using maven on the command line run the followin
 
     mvn package
 
-##Running
+## Running
 
 On Linux ensure the resources folder and the Recruitment-1.0-SNAPSHOT.jar file are in the same directory.  Ensure you are logged in with a user that has permissions to access the file system and ru the following:
 
@@ -26,7 +26,7 @@ On Linux ensure the resources folder and the Recruitment-1.0-SNAPSHOT.jar file a
 
 You should then be able to browse to the application on http://localhost:8080 if you have launched in on your local workstation.  If you have launched it on a server you will need to ensure the port between your workstation and the server is not being blocked by the firewall and the you are not configured to use a proxy.
 
-##REST Endpoints
+## REST Endpoints
 
 GET /api/v1/transactions
     - Read a list of all transactions
@@ -43,7 +43,7 @@ GET /api/v1/transactions/monthly
 GET /api/v1/transactions/weekly
     - Read a list of all weekly transactions
 
-##Documentation
+## Documentation
 
 Documentation is provided via Swagger.  Once the project is running the documentation can be found at:
 
@@ -51,7 +51,7 @@ http://localhost:8080/swagger-ui.html
 
 Again, if running on a remote server replace the localhost with the server name or IP address.
 
-##Testing
+## Testing
 
 To run the projects unit tests using maven on the command line run the following:
 
@@ -61,7 +61,7 @@ Testing has been performed using JUnit and Mockito.  Code coverage reports have 
 
 If working with a Business Analyst on the project it would have been beneficial to use Cucumber for BDD.  For the purpose of this test I have not included this.
 
-##CI / CD Pipeline
+## CI / CD Pipeline
 
 The project is hosted on a public GitHub.com repository.  Upon commit a private Travis-CI.com build initiates, builds and tests the project.  An after-success option in the .travis.yml triggers Codecov.io to produce code coverage reports.
 
