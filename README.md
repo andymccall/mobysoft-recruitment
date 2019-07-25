@@ -21,7 +21,7 @@ To test and package the project using maven on the command line run the followin
 
 ## Running
 
-On Linux ensure the resources folder and the Recruitment-1.0-SNAPSHOT.jar file are in the same directory.  Ensure you are logged in with a user that has permissions to access the file system and ru the following:
+On Linux ensure the resources folder and the Recruitment-1.0-SNAPSHOT.jar file are in the same directory.  Ensure you are logged in with a user that has permissions to access the file system and run the following:
 
     root@linux-server:/opt/mobysoft-recruitment# java -Djava.net.preferIPv4Stack=true -Dspring.profiles.active=development -jar Recruitment-1.0-SNAPSHOT.jar
 
@@ -64,7 +64,7 @@ If working with a Business Analyst on the project it would have been beneficial 
 
 ## CI / CD Pipeline
 
-The project is hosted on a public GitHub.com repository.  Upon commit a private Travis-CI.com build initiates, builds and tests the project.  An after-success option in the .travis.yml triggers Codecov.io to produce code coverage reports.
+The project is hosted on a public GitHub.com repository.  Upon commit a private Travis-CI.org build initiates, builds and tests the project.  An after-success option in the .travis.yml triggers Codecov.io to produce code coverage reports.
 
 The next logical step for this CI/CD pipeline is upon a successful build publish straight into AWS Elastic BeanStalk, however I feel this is out of the scope of the tech test and would take longer then the time I have allowed to completed the test.
 
