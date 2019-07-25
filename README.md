@@ -23,7 +23,7 @@ To test and package the project using maven on the command line run the followin
 
 On Linux ensure the resources folder and the Recruitment-1.0-SNAPSHOT.jar file are in the same directory.  Ensure you are logged in with a user that has permissions to access the file system and ru the following:
 
-    root@linux-server:/opt/mobysoft-recruitment# java -Djava.net.preferIPv4Stack=true -jar Recruitment-1.0-SNAPSHOT.jar
+    root@linux-server:/opt/mobysoft-recruitment# java -Djava.net.preferIPv4Stack=true -Dspring.profiles.active=development -jar Recruitment-1.0-SNAPSHOT.jar
 
 You should then be able to browse to the application on http://localhost:8080 if you have launched in on your local workstation.  If you have launched it on a server you will need to ensure the port between your workstation and the server is not being blocked by the firewall and the you are not configured to use a proxy.
 
