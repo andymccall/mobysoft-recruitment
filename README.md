@@ -9,7 +9,7 @@ The project has been built using SOLID principles using well known design patter
 
 ## Project Status
 
-[![Build Status](https://travis-ci.org/andymccall/mobysoft-recruitment.svg?branch=master)](https://travis-ci.org/andymccall/mobysoft-recruitment)
+[![Build Status](https://travis-ci.org/andymccall/mobysoft-recruitment.svg?branch=master)](https://travis-ci.org/andymccall/mobysoft-recruitment) [![Coverage Status](https://coveralls.io/repos/github/andymccall/mobysoft-recruitment/badge.svg?branch=master)](https://coveralls.io/github/andymccall/mobysoft-recruitment?branch=master)
 
 ## Build and Environment
 
