@@ -9,6 +9,7 @@ The project has been built using SOLID principles using well known design patter
 
 ## Project Status
 
+[![Build Status](https://travis-ci.org/andymccall/mobysoft-recruitment.svg?branch=master)](https://travis-ci.org/andymccall/mobysoft-recruitment)
 
 ## Build and Environment
 
